@@ -1,0 +1,61 @@
+---
+title: "Task 1: Bug report"
+author: "Your name"
+date: today
+format: html
+---
+
+## Summary
+
+In two or three sentences: what was the script supposed to do, and how many
+problems did you find?
+
+## Problems found
+
+Copy the block below once per problem. Put the most important problems first.
+
+### Problem 1: short title
+
+- **Where:** section and line(s) in `analysis_llm.R`
+- **What is wrong:**
+- **Why it matters:** what happens to the data or the result if it is not fixed?
+- **How I found it:** error message, warning, checking `nrow()`, `summary()`,
+  `count()`, the README or the user guide, ...
+- **How I fixed it:**
+
+```r
+# the corrected code
+```
+
+### Problem 2: short title
+
+- **Where:**
+- **What is wrong:**
+- **Why it matters:**
+- **How I found it:**
+- **How I fixed it:**
+
+## Do the conclusions still hold?
+
+One paragraph: run your corrected script and compare the results with the two
+conclusions at the end of the original script. What can you conclude now, and
+what can you not conclude from these data?
+
+## Reflection
+
+A few sentences: would it have been fine to paste these data into a public
+chatbot? What if it were your own unpublished thesis data? What will you do
+differently when you use an LLM for coding in Task 2?
+
+## Bonus (optional): what does an LLM find?
+
+Ask an LLM to review the original `analysis_llm.R`. Which of your problems did
+it find, which did it miss, and did it suggest anything wrong? Document the
+prompt you used.
+
+## Data citation
+
+Baltzer, J.L., Day, N.J., Walker, X.J., Greene, D.F., Mack, M.C., et al. (2022):
+ABoVE: Synthesis of Post-Fire Regeneration Across Boreal North America,
+Version 1.1. ORNL DAAC, Oak Ridge, Tennessee, USA.
+https://doi.org/10.3334/ORNLDAAC/1955
