@@ -13,7 +13,7 @@ R.version.string
 
 getwd()
 
-# Your working directory should be the R-Projectfile: "data-analysis-2026_Proj", e. g.
+# Your working directory should be the R-Project file: "data-analysis-2026_Proj", e. g.
 #"F:/M.Sc. Ökologie_neu/01_Studium/WS 2026/data_analysis_for_field_biologists_Proj/data-analysis-2026_Proj"
 
 #### 3. check required folders ####
@@ -28,7 +28,7 @@ dir.exists("task3")
 
 library(dplyr) # useful package for data handling and manipulation
 library(sf) # necessary to work with simple features (vector spatial data) in R
-library(terra) # for handling vetor data and raster grid data (SpatRaster) in R
+library(terra) # for handling vector data and raster grid data (SpatRaster) in R
 library(here) # easy file referencing in R
 library(ggplot2) # offers advanced plot functions
 
@@ -37,20 +37,22 @@ library(ggplot2) # offers advanced plot functions
 # If some of the packages are not installed, use the function install.packages() to install the missing packages.
 
 #install.packages(dplyr)
-#install.packages(sf)
-#install.packages(here)
+install.packages(sf)
+install.packages(here)
 #install.packages(ggplot2)
 
 #### 5. Test simple calculation in R ####
 2 + 2
 
 #### 6. Check the plot function ####
-plot(1:10, col = "red", main = "Test plot")
+plot(1:10, col = "blue", main = "Test plot")
 
 
 # Check ggplot function
 test_df <- data.frame(ObservedBirds = seq(1,10, by = 1),
                          Happiness = seq(10,100, by = 10))
+test_df
+
 
 ggplot(test_df, aes(x = ObservedBirds, y = Happiness))+
   geom_point()
