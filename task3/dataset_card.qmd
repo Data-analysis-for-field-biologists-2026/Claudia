@@ -1,0 +1,45 @@
+---
+title: "Dataset card: [dataset name]"
+author: "[Your name]"
+date: today
+format: html
+---
+
+<!--
+Fill in one card for each dataset you plan to use for Task 3.
+Make a copy for each dataset, for example dataset_card_landsat.qmd
+and dataset_card_field_data.qmd, and keep them in your task3 folder.
+Replace each "..." with your entry. If something does not apply,
+write "not applicable" and say why.
+-->
+
+| Field | Your entry |
+|---|---|
+| Dataset name and version | ... |
+| Provider | ... |
+| Earth Engine ID or download link | ... |
+| DOI | ... |
+| Licence, and may I reuse it? | ... |
+| Citation | ... |
+| Date range | ... |
+| Spatial resolution | ... |
+| Temporal resolution | ... |
+| Bands or variables I need | ... |
+| Units | ... |
+| Scale factor and offset | ... |
+| Quality or cloud band, and how I use it | ... |
+| Missing value code | ... |
+| Is this collection current, or superseded? | ... |
+| Access date | ... |
+
+## Why this dataset?
+
+What does it measure, and how does that link to my research question?
+
+...
+
+## Known limitations
+
+What could go wrong for my region, season or question?
+
+...
